@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Demon Slayer</title>
+
+  <!-- Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+
+  <script src="https://kit.fontawesome.com/b76211a30a.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand demonslayer" href="#"><h4>Demon Slayer</h4></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="pau.html"><b>Characters</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="season.html"><b>Episodes</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.lazada.com.ph/tag/demon-slayer-merchandise/"><b>Merchandise</b></a>
+              </li>
+            </ul>
+          </div>
+         
+        </nav>
+      </div>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Explore the World of Demon Slayer.</h1>
+          <!-- Update your HTML with platform-specific classes -->
+          <button class="btn btn-dark btn-lg download-button ios" onclick="handleDownload('apple')"><i class="fab fa-apple"></i>  Download</button>
+          <button class="btn btn-outline-light btn-lg download-button android" onclick="handleDownload('google')"><i class="fab fa-google-play"></i> Download</button>
+
+          </button>
+          
+        </div>
+        <div class="col-lg-6">
+          <img class="iphone6" src="logo.jpg" alt="demonslayer-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container fluid forthefeatures">
+      <div class="row">
+        <div class="col-lg-4 f1">
+          <img src="sleepyhead.gif"width="100%">
+          <h3 class="fontf">Discover Powerful Characters</h3>
+          <p class="pf"><b>Explore a diverse range of characters with unique abilities in the world of Demon Slayer.</b></p>
+        </div>
+        <div class="col-lg-4 f1">
+          <img src="tengen-uzui-vs-gyutaro.gif" width="100%">
+          <h3 class="fontf">Epic Episodes</h3>
+          <p class="pf"><b>Witness thrilling and action-packed episodes that will keep you on the edge of your seat.</b></p>
+        </div>
+        <div class="col-lg-4 f1">
+           <img src="sword.gif" width="100%" height="50%">
+          <h3 class="fontf">Immersive Merchandise</h3>
+          <p class="pf"><b>Get exclusive Demon Slayer merchandise and show your love for the series.</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonial-carousels" class="carousel slide" data-ride="false">
+      <ol class="carousel-indicators">
+        <li data-target="#testimonial-carousels" data-slide-to="0" class="active"></li>
+        <li data-target="#testimonial-carousels" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2> "I found the most incredible demons to slay on Demon Slayer. It's a journey worth taking."</h2>
+          <img class="testimonial-image" src="tan.png" alt="tanjirou-profile">
+          <em>Tanjirou Kamado</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">"The camaraderie among the demon slayers is unparalleled. We fight together, and we win together."</h2>
+          <img class="testimonial-image" src="nez.jpg" alt="nezuko-profile">
+          <em>Nezuko Kamado</em>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousels" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousels" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="annn-removebg-preview.png" alt="ann-logo">
+    <img class="press-logo" src="Crunchyroll-Logo.wine.png" alt="crunchyroll-logo">
+    <img class="press-logo" src="MyAnimeList_Logo.png" alt="mal-logo">
+    <img class="press-logo" src="Funimation-Emblem.png" alt="funimation-logo">
+  </section>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <h2>Select the Perfect Plan for Your Journey</h2>
+    <h4>Discover the power of Demon Slayer with our exclusive plans.</h4>
+    <div class="row">
+      <div class="padding-column col-lg-4 col-md-6">
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-header">
+              <h3>Bili-Bili</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>Access to Basic Episodes</p>
+              <p>Limited Merchandise Offers</p>
+              <a style="text-decoration:none"href="https://www.bilibilicomics.com/account"><button class="btn btn-outline-dark btn-lg btn-block" type="button">Sign Up</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="padding-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Crunchyroll</h3>
+          </div>
+          <div class="card-body">
+            <h2>$9.99 / month</h2>
+            <p>Access to Premium Episodes</p>
+            <p>Exclusive Merchandise Deals</p>
+            <a style="text-decoration:none"href="https://myanimelist.net/register.php"><button class="btn btn-outline-danger btn-lg btn-block" type="button">Sign Up</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="padding-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>MyAnimeList</h3>
+          </div>
+          <div class="card-body">
+            <h2>$19.99 / month</h2>
+            <p>Unlimited Access to All Episodes</p>
+            <p>VIP Merchandise Collection</p>
+            <a style="text-decoration:none"href="https://www.crunchyroll.com/welcome/register"><button class="btn btn-outline-success btn-lg btn-block" type="button">Sign Up</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <h3 class="ctah3">Embark on an Epic Journey with Demon Slayer Today.</h3>
+    <button class="btn btn-dark btn-lg download-button ios" onclick="handleDownload('apple')"><i class="fab fa-apple"></i> Download</button>
+    <button class="btn btn-outline-light btn-lg download-button android" onclick="handleDownload('google')"><i class="fab fa-google-play"></i> Download</button>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="fab fa-twitter footericon"></i><i class="fab fa-facebook-f footericon"></i> <i class="fab fa-instagram footericon"></i> <i class="fab fa-discord footericon"></i>
+    <p class="copyright">© Copyright 2023 Demon Slayer</p>
+  </footer>
+
+  <script>
+    // Function to handle download button click
+    function handleDownload(platform) {
+      if (platform === 'apple') {
+        // Redirect to Apple App Store
+        window.location.href = 'https://itunes.apple.com/';
+      } else if (platform === 'google') {
+        // Redirect to Google Play Store
+        window.location.href = 'https://play.google.com/';
+      }
+    }
+  </script>
+ 
+  
+</body>
+
+
+</script>
+
+
+</html>

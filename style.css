@@ -177,7 +177,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     color:black;
-    background-color: aqua;
+    background-color: rgb(0, 110, 255);
   }
   .card {
     background-color: rgba(255, 255, 255, 0.2); /* Very transparent for a glass-like effect */
